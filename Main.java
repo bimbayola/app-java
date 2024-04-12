@@ -3,7 +3,7 @@ public class Main {
     public static int i;
 
     public static void main(String[] args) {
-        String[] names = {"Piotr", "Anna", "Jan", "Leszek"};
+        String[] names = {"Wiosna", "Lato", "Jesień", "Zima"};
         for (int i = 0; i < names.length; i++) {
 System.out.println(i + 1 + ". " + names[i]);
         }
