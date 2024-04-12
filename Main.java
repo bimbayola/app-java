@@ -3,9 +3,9 @@ public class Main {
     public static int i;
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        for (int i = 1; i <= 10; i++) {
-            System.out.println("i = " + i);
+        String[] names = {"Piotr", "Anna", "Jan", "Leszek"};
+        for (int i = 0; i < names.length; i++) {
+System.out.println(i + 1 + ". " + names[i]);
         }
     }
 }
